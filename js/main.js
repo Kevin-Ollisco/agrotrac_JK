@@ -9,12 +9,12 @@ const CONFIG = {
 
 /* 2. SERVICIOS (añade, quita o edita tarjetas aquí) */
 const SERVICIOS = [
-  { nombre: "Romplow",   foto: "img/romplow.jpg",   texto: "Preparación profunda de suelos duros y compactados.", icono: "<circle cx='12' cy='12' r='8'/><circle cx='12' cy='12' r='2'/><path d='M12 4v3M12 17v3M4 12h3M17 12h3'/>" },
-  { nombre: "Arado",     foto: "img/arado.jpg",     texto: "Volteo y oxigenación del terreno antes de la siembra.", icono: "<path d='M4 8h16M4 12h16M4 16h16'/><path d='M7 20l-2-4M12 20l-2-4M17 20l-2-4'/>" },
-  { nombre: "Rastreada", foto: "img/rastreada.jpg", texto: "Desterronado, nivelación y acabado fino de la tierra.", icono: "<path d='M3 9h18M3 15h18'/><path d='M6 9v8M10 9v8M14 9v8M18 9v8'/>" },
-  { nombre: "Boleadora", foto: "img/boleadora.jpg", texto: "Dispersión uniforme de fertilizantes y semillas.", icono: "<path d='M8 4h8l-2 7h-4z'/><circle cx='8' cy='16' r='1'/><circle cx='12' cy='19' r='1'/><circle cx='16' cy='16' r='1'/>" },
-  { nombre: "Fumigada",  foto: "img/fumigada.jpg",  texto: "Control de plagas y malezas con aplicación de precisión.", icono: "<path d='M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z'/><path d='M9.5 14a2.5 2.5 0 0 0 2.5 2.5'/>" },
-  { nombre: "Tractor pequeño", foto: "img/tractor.jpg", texto: "Servicio de tractor pequeño para tareas de mantenimiento.", icono: "<circle cx='12' cy='12' r='8'/><circle cx='12' cy='12' r='2'/><path d='M12 4v3M12 17v3M4 12h3M17 12h3'/>" }
+  { nombre: "Romplow",   foto: "img/romplow.webp",   texto: "Preparación profunda de suelos duros y compactados.", icono: "<circle cx='12' cy='12' r='8'/><circle cx='12' cy='12' r='2'/><path d='M12 4v3M12 17v3M4 12h3M17 12h3'/>" },
+  { nombre: "Arado",     foto: "img/arado.webp",     texto: "Volteo y oxigenación del terreno antes de la siembra.", icono: "<path d='M4 8h16M4 12h16M4 16h16'/><path d='M7 20l-2-4M12 20l-2-4M17 20l-2-4'/>" },
+  { nombre: "Rastreada", foto: "img/rastreada.webp", texto: "Desterronado, nivelación y acabado fino de la tierra.", icono: "<path d='M3 9h18M3 15h18'/><path d='M6 9v8M10 9v8M14 9v8M18 9v8'/>" },
+  { nombre: "Boleadora", foto: "img/boleadora.webp", texto: "Dispersión uniforme de fertilizantes y semillas.", icono: "<path d='M8 4h8l-2 7h-4z'/><circle cx='8' cy='16' r='1'/><circle cx='12' cy='19' r='1'/><circle cx='16' cy='16' r='1'/>" },
+  { nombre: "Fumigada",  foto: "img/fumigada.webp",  texto: "Control de plagas y malezas con aplicación de precisión.", icono: "<path d='M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z'/><path d='M9.5 14a2.5 2.5 0 0 0 2.5_2.5'/>" },
+  { nombre: "Tractor pequeño", foto: "img/tractor.webp", texto: "Servicio de tractor pequeño para tareas de mantenimiento.", icono: "<circle cx='12' cy='12' r='8'/><circle cx='12' cy='１２' r='２'/><path d='M１２ ４v３M１２ １７v３M４ １２h３M１７ １２h３'/>" }
 ];
 
 /* 3. UTILIDADES */

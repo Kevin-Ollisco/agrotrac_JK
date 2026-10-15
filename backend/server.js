@@ -3,9 +3,12 @@
    - POST /api/contacto : valida, guarda el pedido en leads.json y devuelve el enlace de WhatsApp
    - GET  /api/leads    : lista los pedidos (header x-admin-key) */
 require("dotenv").config();
+const compression = require("compression");
 const express = require("express"), cors = require("cors"), fs = require("fs"), path = require("path");
 
 const app = express();
+app.set("trust proxy", 1);
+app.use(compression());
 const PORT = process.env.PORT || 3000;
 const PHONE = process.env.WHATSAPP_PHONE || "591XXXXXXXX";
 const FILE = path.join(__dirname, "leads.json");
@@ -15,9 +18,9 @@ const hits = new Map(); // límite simple: 5 envíos por IP cada 10 min
 app.use(cors());
 app.use(express.json({ limit: "10kb" }));
 const root = path.join(__dirname, "..");
-app.use("/css", express.static(path.join(root, "css")));
-app.use("/js", express.static(path.join(root, "js")));
-app.use("/img", express.static(path.join(root, "img")));
+app.use("/css", express.static(path.join(root, "css"), { maxAge: "1d" }));
+app.use("/js", express.static(path.join(root, "js"), { maxAge: "1d" }));
+app.use("/img", express.static(path.join(root, "img"), { maxAge: "7d" }));
 app.get("/", (req, res) => res.sendFile(path.join(root, "index.html")));
 
 const clean = (v, n = 120) => String(v || "").replace(/[<>]/g, "").trim().slice(0, n);
