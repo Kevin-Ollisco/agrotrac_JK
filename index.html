@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AgroTrac | Servicios agrícolas con tractor</title>
+<meta name="description" content="Romplow, arado, rastreada, boleadora y fumigada con tractor. Cotiza por hora o hectárea.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- 1. NAVEGACIÓN -->
+<nav><div class="wrap nav">
+  <a class="logo" href="#inicio" aria-label="AgroTrac inicio">
+    <!-- LOGO: reemplaza este SVG por <img src="img/logo.svg"> si tienes uno -->
+    <svg viewBox="0 0 32 32"><circle cx="9" cy="23" r="5"/><circle cx="25" cy="24" r="3"/><path d="M14 23h8M9 18V9h8l3 6h6v9M17 9v6h3"/></svg>AgroTrac JK
+  </a>
+  <div class="links" id="links">
+    <a href="#inicio">Inicio</a><a href="#nosotros">Sobre nosotros</a><a href="#servicios">Servicios</a><a href="#tarifas">Precios y cotización</a><a href="#ubicacion">Ubicación</a><a href="#contacto">Contacto</a>
+  </div>
+  <a class="btn btn-p js-wa" href="#" target="_blank" rel="noopener"><span class="long">Cotizar por </span>WhatsApp</a>
+  <button class="menu" id="menu" aria-label="Abrir menú">☰</button>
+</div></nav>
+
+<!-- 2. HERO -->
+<header class="hero" id="inicio">
+  <!-- FOTO 1: HERO · img/hero.jpg · 1920×1080 (horizontal) -->
+  <div class="slot hero-bg" data-label="img/hero.jpg · 1920×1080"><img src="img/hero.jpg" alt="Tractor trabajando la tierra al atardecer"></div>
+  <div class="hero-shade"></div>
+  <div class="sun"></div>
+  <div class="wrap">
+    <h1>Servicios agrícolas de precisión y maquinaria pesada para tu campo</h1>
+    <p>Optimizamos tu suelo y mejoramos tu rendimiento. Trabajos por hora o hectárea con tractores equipados y personal capacitado.</p>
+    <div class="cta"><a class="btn btn-p" href="#contacto">Solicitar trabajo / cotizar</a><a class="btn btn-s" href="#servicios">Ver nuestros servicios</a></div>
+    <div class="glass"><div><b>5 trabajos</b><span>con implementos propios</span></div><div><b>Hora o hectárea</b><span>tú eliges cómo cotizar</span></div><div><b>Respuesta rápida</b><span>por WhatsApp</span></div></div>
+  </div>
+</header>
+
+<main>
+<!-- 3. SOBRE NOSOTROS -->
+<section id="nosotros"><div class="wrap about">
+  <div>
+    <h2>Somos tu socio en la preparación de la tierra</h2>
+    <p>AgroTrac JK  te brinda servicios agrícolas con tractores e implementos pesados. Trabajamos con agricultores de la zona que necesitan su terreno listo a tiempo y bien hecho.</p>
+    <p>Llegamos puntuales, cuidamos el consumo de combustible para que tu trabajo salga más económico y mantenemos la maquinaria revisada para que no se detenga en plena faena.</p>
+  </div>
+  <div class="stats">
+    <!-- FOTO 2: EQUIPO/TRACTOR · img/nosotros.jpg · 1200×900 -->
+    <div class="slot photo-about" data-label="img/nosotros.jpg · 1200×900"><img src="img/nosotros.jpg" alt="Equipo y maquinaria de AgroTrac"></div>
+    <div class="stat"><b>+[X] hectáreas</b><span>trabajadas en campos de la región</span></div>
+    <div class="stat"><b>Operadores experimentados</b><span>personal capacitado en cada trabajo</span></div>
+    <div class="stat"><b>Maquinaria garantizada</b><span>mantenimiento al día, sin sorpresas</span></div>
+  </div>
+</div></section>
+
+<!-- 4. SERVICIOS (las tarjetas se generan en js/main.js → SERVICIOS) -->
+<section class="services" id="servicios"><div class="wrap">
+  <h2>Servicios agrícolas</h2>
+  <p style="color:var(--mute)">Todos se cotizan por hora o por hectárea. Toca “Cotizar” y se abre WhatsApp con el mensaje listo.</p>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<!-- 5. TARIFAS -->
+<section id="tarifas"><div class="wrap">
+  <h2>Cómo calculamos tu presupuesto</h2>
+  <p style="color:var(--mute)">Sin letra chica: el precio depende de cuatro cosas que revisamos contigo antes de empezar.</p>
+  <div class="steps">
+    <div class="step"><h3>Evaluación del terreno</h3><p>Tamaño y estado del lote.</p></div>
+    <div class="step"><h3>Distancia</h3><p>Traslado del tractor hasta tu propiedad.</p></div>
+    <div class="step"><h3>Tipo de suelo</h3><p>Suelo duro o suelto cambia el tiempo de trabajo.</p></div>
+    <div class="step"><h3>Tu requerimiento</h3><p>Qué trabajo necesitas y para cuándo.</p></div>
+  </div>
+  <div class="modes">
+    <div class="mode"><h3>Por hora</h3><p>Ideal para lotes pequeños, terrenos irregulares o trabajos combinados.</p></div>
+    <div class="mode"><h3>Por hectárea</h3><p>Ideal para superficies grandes: sabes el costo total desde el inicio.</p></div>
+  </div>
+</div></section>
+
+<!-- 6. UBICACIÓN -->
+<section id="ubicacion" style="background:var(--card)"><div class="wrap loc">
+  <div>
+    <h2>Dónde trabajamos</h2>
+    <p style="color:var(--mute)">Atendemos las siguientes zonas. Si tu comunidad no aparece, escríbenos: podemos evaluar el traslado.</p>
+    <ul class="zones"><li>[RAMADAS]</li><li>[LA POZA]</li><li>[SAN GERONIMO]</li><li>[SAN JORGE]</li><li>[ otras comunidades del municipio de MOJOCOYA</li></ul>
+    <a class="btn btn-p" id="mapLink" href="#" target="_blank" rel="noopener">Abrir en Google Maps</a>
+  </div>
+  <!-- MAPA: en Google Maps → Compartir → Insertar un mapa → copia el <iframe> y pégalo aquí, reemplazando el bloque .map -->
+  <div class="map" style="padding:0">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7552.630054070393!2d-64.6232986!3d-18.8286555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fa6d285c6568c7%3A0x394d9eae940c9177!2sServicio%20De%20Tractor%20Agricola!5e0!3m2!1ses-419!2sbo!4v1791609039545!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+</div></section>
+
+<!-- 7. CONTACTO -->
+<section class="contact" id="contacto"><div class="wrap cwrap">
+  <div>
+    <h2>Pide tu cotización hoy</h2>
+    <p>Cuéntanos qué necesitas y te respondemos por WhatsApp con el precio.</p>
+    <a class="btn btn-p js-wa" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+  </div>
+  <form id="form" novalidate>
+    <label>Nombre<input name="nombre" required autocomplete="name" placeholder="Tu nombre"></label>
+    <label>Teléfono<input name="telefono" type="tel" required autocomplete="tel" placeholder="Tu número"></label>
+    <label>Ubicación de la propiedad<input name="ubicacion" required placeholder="Comunidad o municipio"></label>
+    <label>Hectáreas aproximadas<input name="hectareas" inputmode="decimal" placeholder="Ej. 5"></label>
+    <label>Tipo de servicio<select name="servicio" id="sel"></select></label>
+    <input class="hp" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn btn-p" type="submit">Enviar por WhatsApp</button>
+    <div class="form-msg" id="msg" role="status"></div>
+  </form>
+</div></section>
+</main>
+
+<!-- 8. FOOTER -->
+<footer><div class="wrap foot">
+  <div><b style="color:#fff">AgroTrac</b><br>Lun–Sáb 7:00–18:00<br>© 2026 AgroTrac. Todos los derechos reservados.</div>
+  <div><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#tarifas">Tarifas</a><a href="#contacto">Contacto</a><br><br><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">TikTok</a></div>
+</div></footer>
+
+<a class="wa-float js-wa" href="#" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp"><svg viewBox="0 0 24 24"><path d="M3 21l1.6-5A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9c0 3 3 6 6 6l1.2-1.4-2-1-1 .6c-.8-.4-1.6-1.2-2-2l.6-1-1-2z"/></svg></a>
+<script src="js/main.js"></script>
+</body>
+</html>

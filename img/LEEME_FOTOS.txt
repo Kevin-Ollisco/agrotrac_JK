@@ -1,0 +1,11 @@
+FOTOS QUE DEBES PONER EN ESTA CARPETA (formato .jpg, ideal < 400 KB c/u, comprimidas):
+
+hero.jpg        1920x1080  Portada: tractor arando al atardecer (horizontal)
+nosotros.jpg    1200x900   Sección "Sobre nosotros": tu tractor/equipo
+romplow.jpg     1200x750   Tarjeta Romplow
+arado.jpg       1200x750   Tarjeta Arado
+rastreada.jpg   1200x750   Tarjeta Rastreada
+boleadora.jpg   1200x750   Tarjeta Boleadora
+fumigada.jpg    1200x750   Tarjeta Fumigada
+favicon.png     64x64      (opcional) icono de la pestaña
+Mientras falte una foto, la página muestra un recuadro verde punteado que indica el nombre.
